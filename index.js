@@ -176,21 +176,21 @@ var styles = StyleSheet.create({
     justifyContent: 'center',
     borderWidth: 1,
     color: 'black',
-    fontSize: 20,
+    fontSize: 14,
     borderRadius: 4,
-    paddingLeft: 10,
-    marginTop: 20,
+    paddingLeft: 5,
+    marginTop: 10,
   },
   label: labelStyleObj
 })
 
 var cleanStyle = {
-  fontSize: 20,
-  top: 7
+  fontSize: 14,
+  top: 0
 }
 
 var dirtyStyle = {
-  fontSize: 12,
+  fontSize: 11,
   top: -17,
 }
 
