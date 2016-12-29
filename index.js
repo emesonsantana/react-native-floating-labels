@@ -167,17 +167,16 @@ if (Platform.OS === 'web') {
 
 var styles = StyleSheet.create({
   element: {
-    position: 'relative'
+    position: 'relative',
+    borderBottomWidth: 1,
+    borderColor: 'gray'
   },
   input: {
     height: 40,
-    borderColor: 'gray',
     backgroundColor: 'transparent',
     justifyContent: 'center',
-    borderWidth: 1,
     color: 'black',
     fontSize: 14,
-    borderRadius: 4,
     paddingLeft: 5,
     marginTop: 10,
   },
