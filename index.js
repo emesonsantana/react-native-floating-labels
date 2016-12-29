@@ -156,7 +156,7 @@ var FloatingLabel  = React.createClass({
 
 var labelStyleObj = {
   marginTop: 21,
-  paddingLeft: 9,
+  paddingLeft: 5,
   color: '#AAA',
   position: 'absolute'
 }
