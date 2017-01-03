@@ -96,6 +96,8 @@ var FloatingLabel  = React.createClass({
     return (
       <Animated.Text
         ref='label'
+        numberOfLines={1}
+        ellipsizeMode='tail'
         style={[this.state.labelStyle, styles.label, this.props.labelStyle]}
       >
         {this.props.children}
