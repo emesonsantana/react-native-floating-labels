@@ -139,7 +139,6 @@ var FloatingLabel  = React.createClass({
         value: this.props.value,
         numberOfLines: this.props.numberOfLines,
         returnKeyLabel: this.props.returnKeyLabel,
-        clearButtonMode: this.props.clearButtonMode,
         clearTextOnFocus: this.props.clearTextOnFocus,
         dataDetectorTypes: this.props.dataDetectorTypes,
         enablesReturnKeyAutomatically: this.props.enablesReturnKeyAutomatically,
